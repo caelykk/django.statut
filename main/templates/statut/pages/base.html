@@ -1,0 +1,33 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  CSS -->
+{#    <link rel="stylesheet" href="/a/main/templates/a/static/css/base.css">#}
+{#    <link rel="stylesheet" href="/main/templates/a/static/css/header.css">#}
+    <link rel="stylesheet" href="{% static '/css/base.css' %}">
+    <link rel="stylesheet" href="{% static '/css/header.css' %}">
+    <link rel="stylesheet" href="{% static '/css/header_nav.css' %}">
+{#    <link rel="stylesheet" href="/a/main/static/css/header_search.css">#}
+{#    <link rel="stylesheet" href="/main/templates/a/static/css/header_nav.css">#}
+{#    <link rel="stylesheet" href="/a/main/static/css/auth.css">#}
+{#    <link rel="stylesheet" href="/a/main/static/css/cabinet.css">#}
+{#    <link rel="stylesheet" href="/a/main/static/css/cabinet_aside_menu.css">#}
+{#    <link rel="stylesheet" href="/a/main/static/css/mydate.css">#}
+
+    <!--  FONTS-->
+    <link rel="stylesheet" href="{% static '/fonts/Roboto/stylesheet.min.css' %}">
+
+
+    <title>{% block title %}{% endblock %}</title>
+<body>
+{% block body %}
+
+{% endblock %}
+{% include 'statut/includes/footer.html' %}
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+../.idea
+.venv
+
+.pylintrc
+__pycache__
+test.py
+Django.rar
